@@ -13,7 +13,9 @@ go to "models" folder. there are three folders of three models. To run models:
 FES Model: go to Sailency_Prediction_Matlab\MODELs\FES. Run runSaliency.m
 SS Model: go to Sailency_Prediction_Matlab\MODELs\SS. Run demo.m
 SDS Model: go to Sailency_Prediction_Matlab\MODELs\SDS. Run demo.m
-For all the models in there corresponding run file set the dir for input images and output images. By default folder is created and you can set the input images dir to "Sailency_Prediction_Matlab\INPUT IMAGES" or can copy the images from INPUT IMAGES and paste it in "BenchmarkIMAGES" folder. now run the models and output will be added to the result folder in corresponding models folder.
+For all the models in there corresponding run file set the dir for input images and output images. By default folder is created and you can set the input images dir to "Sailency_Prediction_Matlab\INPUT IMAGES"
+or,
+you can create folder "BenchmarkIMAGES" in the corrseponding models directories, copy the images from INPUT IMAGES and paste it in "BenchmarkIMAGES" folder. now run the models and output will be added to the result folder in corresponding models folder.
 #Using evaluation metrics to compare and get score value:
 
 Job is to Compare Prediction Models with td_FixMap and ASD_FixMap.
